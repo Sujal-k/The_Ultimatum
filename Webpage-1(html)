@@ -1,0 +1,97 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header::before {
+            background: url('https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c291cmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 15px 26px;
+        }
+
+        section {
+            height: 344px;
+            font-family: 'Bree Serif', serif;
+            margin: 3px 230px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-top: 4px;
+        }
+
+        p {
+            margin-top: 2px;
+            text-align: center;
+            font-size: 18px;
+
+        }
+
+        #cd {
+            margin-top: 2px;
+            color: turquoise;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        #notes {
+            margin-top: -9px;
+            font-size: 18px;
+            font-family: 'Bree Serif', serif;
+
+        }
+
+        #lnk a {
+            margin-left: 724px;
+            color: aliceblue;
+            text-decoration: underline;
+            font-family: 'Bree Serif', serif;
+            font-weight: lighter;
+        }
+
+        #lnk a:hover {
+            color: aqua;
+        }
+
+        #quote {
+            font-size: 18px;
+            font-family: 'Bree Serif', serif;
+
+        }
+
+        .navigation li a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        .navigation li a:hover,
+        .navbar li a.active {
+            color: aqua;
+            text-decoration: underline;
+        }
