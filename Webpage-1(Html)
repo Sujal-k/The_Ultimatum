@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Before and after pseudo selector</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#">services</a></li>
+                <li class="item"><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1> Welcome to Coding World</h1>
+        <p>Hello &nbspall! &nbspI&nbsp am&nbsp a <span style="color:rgb(84, 213, 242)">&nbspfront-end
+                &nbspdeveloper</span>&nbsp, &nbspI&nbsp have&nbsp also&nbsp learned &nbspC&nbsp,&nbspC++<br>&nbspI&nbsp
+            am &nbspproviding&nbsp my&nbsp OOPS &nbspnotes&nbsp in&nbsp C++,&nbspThe&nbsp best&nbsp notes &nbspyou
+            &nbspever&nbsp saw,&nbsp take &nbspreference&nbsp from &nbspmy&nbsp notes &nbspand </p>
+        <p id="cd">CrackCodes.</p>
+    </section>
+    <div>
+        <p id="notes">Click here to access my Notes</p>
+        <div id="lnk">
+            <a href="https://drive.google.com/file/d/1E6CQD5pXt4dbdG263ydfP-a9rMNPksYJ/view?usp=drivesdk"
+                target="_blank">OOPS Notes</a>
+        </div>
+    </div>
+    <br>
+    <br><br><br>
+    <div>
+        <p id="quote">There is a lot to learn, Keep in mind <br>“ Mnn bhot karega k chor yrr apne se nahi hoga ya maza
+            nahi aara, Just ask 1 question <span style="color:yellow">“ Why I started ? “</span>
+        </p>
+    </div>
+
+</body>
+
+</html>
