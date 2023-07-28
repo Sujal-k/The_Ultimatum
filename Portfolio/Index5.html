@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>www.skportfolio.com</title>
+</head>
+<style>
+
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        background-color: #cecece;
+    }
+    img{
+        height: 120px;
+        width: 100px;
+        padding: 5px ;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .navbar{
+        
+        display: flex;
+        position: sticky;
+        flex-direction: column;
+        width: 280px;
+        background-color: rgb(87, 86, 86);
+        height: 100%;
+        margin-top: -450px;
+        height: 795px;
+    
+    }
+    .navbar ul li{
+        padding: 6px;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 34px;
+    }
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        padding-bottom: 8px;
+        
+    }
+.container{
+    display: flex;
+    height: 400px;
+    /* width: 520px; */
+    background: url("images.jpg") no-repeat center/cover;
+   
+    
+}
+.container p{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    color: white;
+    /* word-wrap: break-word; */
+}
+#name{
+    display: block;
+    margin-bottom: 44px;
+    font-size: 70px;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    padding-right: 56px;
+    padding-left: 56px;
+    margin-left: -299px;
+    margin-right: 20px;
+}
+#head{
+    display: inline-block;
+    position: static;
+    margin-top: 101px;
+    margin-right:-21px;
+    font-size: 44px;
+    color: white
+    
+    
+}
+ #pic img{
+    height: 250px;
+    width: 220px;
+}
+#intro{
+    /* border: 2px solid black; */
+    display: flex;  
+    font-size: 35px;
+    width: 1234px;
+    border-left-width: 20px;
+    height: 338px;
+    margin-top: -344px;
+    margin-left: 280px;
+    color: #000000;
+    font-family: Georgia, Arial;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    vertical-align: baseline;
+    background-color: #cecece;
+}
+ul li a::before{
+    content: "";
+    position: absolute;
+    background: #e6eeeea9;;
+    transition: 0.5s;
+    transform: skewY(-45deg);
+}
+ul li a::after{
+    content: "";
+    position: absolute;
+    background: #e6eeeea9;;
+    transition: 0.5s;
+    transform: skewX(-45deg);
+}
+ul li:hover span{
+    color: #fff;
+}
+
+ul li:hover a{
+    background: #a69c9b;
+    transform: translate(15px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0, 0, 0.5);
+}
+
+
+</style>
+<body>
+    <section class="container">
+        <p id="head">Portfolio Website</p>
+        <p id="name"> &nbsp; &nbsp; &nbsp; Sujal Kesharwani &nbsp; &nbsp; &nbsp;</p>
+        <div id="pic">
+            <img src="logo-modified.jpg" alt="">
+        </div>
+        
+    </section>
+    <section>
+        <nav class="navbar">
+            <img src="logo5.webp" alt="">
+            <ul class="navigation">
+                <li><a href="Index5.html" target="_blank">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                    </a></li>
+                <li class="item"><a href="Quali.html" target="_blank">
+                    <i class="fa-solid fa-address-card"></i>
+                    <span>Qualification</span>
+                </a></li>
+                <li class="item"><a href="skills.html" target="_blank>
+                    <i class="fa-solid fa-server"></i>
+                    <span>Skills</span>
+                </a></li>
+                <li class="item"><a href="Achievement.html" target="_blank>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>Achievment</span>
+                </a></li>
+                <li class="item"><a href="contactus.html" target="_blank>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>Contact Us</span>
+                </a></li>
+            </ul>
+        </nav>
+    </section>
+    <div id="intro">
+        <p>Passionate about Communication, and C++,Python Programming Language with a broad knowledge in computer science principles. Always interested in expanding my knowledge and learning something new everyday. <br>I am always open to hearing about new opportunities </p>
+    </div>
+    
+</body>
+</html>
